@@ -1,0 +1,281 @@
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: rgba(45,146,240,1.00);
+    font-family: Arial;
+    padding: 0px 0px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  /*padding: 14px 16px;*/
+  text-decoration: none;
+  /*height: 80%;*/
+  cursor: pointer;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  height: 86px;
+  cursor: pointer;
+  }
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #f9f9f9;
+    color: black;
+    size: inherit;
+	align-items: stretch;
+    
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgba(45,146,240,1.00);
+  color: white;
+  cursor: pointer;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+	cursor: pointer;
+}
+/*Well, what I'm about to do is a bad idea.*/
+.thisisabadideoforheaderhomepglink{
+	float: left;
+}
+.thisisabadideoforheaderhomepglink:hover{
+	float: left;
+	background: url("../Pics and vids and random stuff/logovsomethingpart1.PNG") no-repeat;
+}
+/*NOTE: Right now for testing purposes I'm using display to hide/unhide stuff but later I should probably change it*/
+/*to visible because the stuff will be the same size.*/
+.homepgnavimagestuff{
+	background-image: url('../Pics and vids and random stuff/Logov8.png');
+	padding: none;
+	float: left;
+}
+.homepgnavimagestuff:hover{
+	background-image: url('../Pics and vids and random stuff/Logovblackversion.png');
+	width: 75px;
+	height: 75px;
+	padding: none;
+	float: left;
+}
+OLD VERSION OF HEADER CSS
+.navcontent{
+  display: flex;
+  flex-direction: row;
+  color: black;
+  justify-content: flex-start;
+  font-family: Arial;
+  /*background-color: rgba(45,146,240,1.00);*/
+  align-items: flex-start;
+  margin-left: 15px;
+}
+.homepagelink{
+  padding-left: 15px;
+  background-color: rgba(45,146,240,1.00);
+  padding-right: 15px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.homepagelink:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.bookingslink{
+  padding-left: 15px;
+  background-color: rgba(45,146,240,1.00);
+  padding-right: 15px;
+  color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  /*display: flex;
+  flex-direction: column;
+  align-items: flex-start;*/
+}
+.bookingslink:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.bookflightscontent{
+  list-style: none;
+  color: white;
+  position: absolute;
+  padding-left: 0px;
+  background-color: rgba(45,146,240,1.00);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.bookflightscontent:hover{
+  background-color: white;
+  padding-left: 0px;
+  list-style: none;
+  position: absolute;
+  color: black;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.bookflightscontentspecial{
+  /*list-style: none;
+  color: white;
+  padding-left: 0px;
+  background-color: rgba(45,146,240,1.00);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;*/
+  padding-left: 15px;
+  background-color: rgba(45,146,240,1.00);
+  padding-right: 15px;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bookflightscontentspecial:hover{
+  /*background-color: white;
+  padding-left: 0px;
+  list-style: none;
+  color: black;
+  padding-top: 14px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;*/
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutuslink{
+  padding-left: 15px;
+  background-color: rgba(45,146,240,1.00);
+  padding-right: 15px;
+  color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.aboutuslink:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.newslink{
+  padding-left: 15px;
+  background-color: rgba(45,146,240,1.00);
+  padding-right: 15px;
+  color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.newslink:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.fleetlink{
+  padding-left: 15px;
+  background-color: rgba(45,146,240,1.00);
+  padding-right: 15px;
+  color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.fleetlink:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.southernmileslink{
+  padding-left: 15px;
+  background-color: rgba(45,146,240,1.00);
+  padding-right: 15px;
+  color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.southernmileslink:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.jobslink{
+  padding-left: 20px;
+  background-color: rgba(45,146,240,1.00);
+  padding-right: 20px;
+  color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.jobslink:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+/* CSS Document */
+/*Actual Page Code*/
+body {
+	background-color:#f9f9f9;
+}
+.workscitedlinks:link{
+  text-decoration: none;
+  color: rgba(45,146,240,1.00);
+  
+}
+.workscitedlinks:visited{
+  text-decoration: none;
+  color: rgba(45,146,240,1.00);
+}
+.workscitedlinks:hover{
+  text-decoration: underline;
+}
+.workscitedlinks:active{
+  text-decoration: underline;
+  color: black;
+}
+/*WAIT WHAT
+I THOUGHT I FIXED THAT THEYRE NOT SUPPOSED TO BE PURPLE
+oh wait nvm*/

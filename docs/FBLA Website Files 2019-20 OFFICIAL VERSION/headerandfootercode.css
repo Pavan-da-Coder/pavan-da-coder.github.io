@@ -1,0 +1,224 @@
+/*|-----------------------|
+  |--Header Section Code--|
+  |-----------------------|*/
+  .navcontent{
+	display: flex;
+	flex-direction: row;
+	color: black;
+	justify-content: flex-end;
+	font-family: 'Roboto', sans-serif;
+	/*background-color: rgba(45,146,240,1.00);*/
+	align-items: flex-start;
+	margin-left: 15px;
+  }
+  .homepagelink{
+	padding-left: 15px;
+	background-color: rgba(45,146,240,1.00);
+	/*my traditional blue color signature*/
+	padding-right: 15px;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 15px;
+	border: 0px;
+	transition: all 0.6s;
+  }
+  .homepagelink:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+  }  
+  .bookingslink{
+	padding-left: 15px;
+	background-color: rgba(45,146,240,1.00);
+	padding-right: 15px;
+	color: white;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	transition: all 0.6s;
+  }
+  .bookingslink:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+  }
+  .aboutuslink{
+	padding-left: 15px;
+	background-color: rgba(45,146,240,1.00);
+	padding-right: 15px;
+	color: white;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	transition: all 0.6s;
+  }
+  .aboutuslink:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+  }
+  .newslink{
+	padding-left: 15px;
+	background-color: rgba(45,146,240,1.00);
+	padding-right: 15px;
+	color: white;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	transition: all 0.6s;
+  }
+  .newslink:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+  }
+  .fleetlink{
+	padding-left: 15px;
+	background-color: rgba(45,146,240,1.00);
+	padding-right: 15px;
+	color: white;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	transition: all 0.6s;
+  }
+  .fleetlink:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+  }
+  .southernmileslink{
+	padding-left: 15px;
+	background-color: rgba(45,146,240,1.00);
+	padding-right: 15px;
+	color: white;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	transition: all 0.6s;
+  }
+  .southernmileslink:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+  }
+  .jobslink{
+	padding-left: 20px;
+	background-color: rgba(45,146,240,1.00);
+	padding-right: 20px;
+	color: white;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	transition: all 0.6s;
+  }
+  .jobslink:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+  } 
+  .headerholder{
+	  display: flex;
+	  justify-content: space-between;
+	  flex-direction: row;
+  }
+/*|-----------------------|
+  |--Footer Section Code--|
+  |-----------------------|*/
+footer {
+  background-color: rgba(45,146,240,1.00);
+  margin-bottom: 0px;
+}
+
+.footercontainer {
+	display: flex;
+	flex-direction: row;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+.footerleftcolumn {
+	display: flex;
+	flex-direction: column;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	padding-top: 75px;
+	align-items: flex-start;
+}
+
+.footermiddlecolumn {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	padding-top: 75px;
+	align-items: flex-start;
+}
+
+.footerrightcolumn {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	padding-top: 75px;
+	align-items: flex-start;
+}
+.footerfarright{
+	display: flex;
+	flex-direction: column;
+	/*padding-bottom: 100px;*/
+	padding-top: 75px;
+	/*align-items: flex-start;*/
+	width: 10%;
+	padding-right: 100px;
+}
+
+.footerlinksstuff {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+}
+.footerlinksstuff:hover {
+	text-decoration: underline;
+}
+.footerhomepgpicthingy{
+	display: flex;
+	align-items: center;
+	padding-right: 100px;
+	padding-top: 75px;
+}
+.footerhomepgpictext{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+.footerhomepgpictext:hover{
+	color: white;
+	text-decoration: underline;
+}
+.cardsfade{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+.footertextstyler{
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+.footertextstyler:hover{
+	color: white;
+	text-decoration: underline;
+}
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+   /*On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+	.text {font-size: 11px}
+  }

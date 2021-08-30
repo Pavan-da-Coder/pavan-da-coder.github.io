@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Test Page 7</title>
+        <style>
+            .maindiv{
+                display: grid;
+                grid-template-columns: 50px 50px;
+                grid-template-rows: 50px 50px;
+            }
+            .button1{
+                border: none;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            .button2{
+                border: none;
+                display: none;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+
+        
+        </style>
+
+
+    </head>
+    <body>
+        <script>
+            function testf1(){
+                document.getElementById("buttononeid").style.display = "none";
+                console.log("1.Button 1 is vanished");
+                document.getElementById("buttontwoid").style.display = "block";
+                console.log("1.Button 2 is visible");
+            }
+            function testf2(){
+                document.getElementById("buttontwoid").style.display = "none";
+                console.log("2.Button 2 is vanished");
+                document.getElementById("buttononeid").style.display = "block";
+                console.log("2.Button 1 is visible");
+            }
+        </script>
+
+
+        <div class="maindiv">
+            <button onclick="testf1()" class="button1" id="buttononeid">
+                Click once
+            </button>
+            <button onclick="testf2()" class="button2" id="buttontwoid">
+                Click twice
+            </button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>
+            Test Page 7<br>
+            Status: Success<br>
+            Purpose: Create a JavaScript function to change buttons
+
+
+
+
+        </p>
+
+    </body>
+
+
+
+
+
+</html>

@@ -1,0 +1,115 @@
+<!--Header Stuff-->
+	<header>
+		
+		<!--Navbar-->
+        
+		<div class="navbar">
+		<!--Homepage Link-->
+		<div>
+          	<a href="../Homepage/Homepage.html"  style="padding-left: 20px; padding-right: 20px;">
+           		 <img id="check1" src="../Pics and vids and random stuff/Logov8 - Copyv2.png" onMouseOver="document.getElementById('check1').src='../Pics and vids and random stuff/Logovblackversionv2.png'" onMouseOut="document.getElementById('check1').src='../Pics and vids and random stuff/Logov8 - Copyv2.png'">
+          	</a>
+            </div>
+      <!--Dropdown 1-->
+	  <div class="dropdown">
+		<button class="dropbtn">Bookings
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		  <a href="../Book Flights/Book Flights.html">Book Flights</a>
+		  <a href="../Multi-Book/Multi-Book.html">Multi-Book</a>
+          <a href="../Total Location and Flight Schedules/Total Location and Flight Schedules.html">All Flight Schedules and Destinations</a>
+			
+		</div>
+	  </div>
+      	 <!--Dropdown 2-->
+	  <div class="dropdown">
+		<button class="dropbtn">About Us
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		  <a href="../Works Cited/Works Cited.html">Works Cited</a>
+		  <a href="../Privacy Policy/Privacy Policy.html">Privacy Policy</a>
+          <a href="../Sitemap/Sitemap.html">Sitemap</a>
+			
+		</div>
+	  </div>
+		
+		<!--Link 1-->
+	  <div class="dropdown">
+		  <a href="../News/News.html" style="padding-left: 13px; padding-right: 13px;">
+		<button class="dropbtn">News
+		</button>
+		  </a>
+	  </div>
+		<!--Link 2-->
+	  <div class="dropdown">
+		  <a href="../Fleet/Fleet.html" style="padding: 0px 13px;">
+		<button class="dropbtn">Fleet
+		</button>
+		  </a>
+	  </div>
+		<!--Link 3-->
+	  <div class="dropdown">
+		  <a href="../Frequent Fliers/Frequent Fliers.html" style="padding: 0px 13px;">
+		<button class="dropbtn">Southern Miles
+		</button>
+		  </a>
+	  </div>
+		<!--Link 4-->
+	  <div class="dropdown">
+		  <a href="../Jobs/Jobs.html" style="padding: 0px 13px;">
+		<button class="dropbtn">Join Us!
+		</button>
+		  </a>
+	  </div>
+		<!--The thingy that ends the navbar-->
+		</div>
+		
+	</header>
+NEW FAILED VERSION OF Header
+<header style="background-color: rgba(45,146,240,1.00);">
+		<nav class="navcontent">
+			<div class="homepagelink" onmouseover="document.getElementById('check1').src='../Pics and vids and random stuff/Logov51blackversion.png'" onMouseOut="document.getElementById('check1').src='../Pics and vids and random stuff/Logov51.png'">
+				<img id="check1" src="../Pics and vids and random stuff/Logov51.png" width="100%" height="auto" style="cursor: pointer;" alt="Southern Air Logo">
+			</div>
+			<!--Bookings and About Us need to have dropdown-->
+					<ul>
+						<!-- style="position: absolute; width: 100px; padding-left: 0px; padding-top: 48px;"-->
+						<li class="bookflightscontentspecial">Bookings</li>
+						<!--<li class="bookflightscontent">Book Flights</li>
+						<br>
+						<br>
+						<br>
+						<li class="bookflightscontent">Multi-Book</li>-->
+					</ul>
+			<div class="aboutuslink">
+				<p>About Us</p>
+			</div>
+			<div class="newslink">
+				<p>Southern Air News</p>
+			</div>
+			<div class="fleetlink">
+				<p>Our Fleet</p>
+			</div>
+			<div class="southernmileslink">
+				<p>Southern Miles</p>
+			</div>
+			<div class="jobslink">
+				<p>Jobs</p>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</nav>
+	</header>

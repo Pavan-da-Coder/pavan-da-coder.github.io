@@ -1,0 +1,16 @@
+/*CSS MEDIA QUERIES*/
+@media only screen and (max-width: 980px){
+    .southernmilesholder{
+        flex-direction: column;
+    }
+    .jobscontainersection{
+        flex-direction: column;
+    }
+    .footercontainer{
+        flex-direction: column;
+    }
+    .mediaquerieshomepgimgs{
+        width: 100%;
+        height: auto;
+    }
+}

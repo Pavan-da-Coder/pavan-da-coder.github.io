@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Page 4</title>
+        <style>
+            /*.resultscontainer{
+                display: none;
+            }*/
+            /*Makes the results appear in a column*/
+            .linksdirectfix{
+                display: flex;
+                flex-direction: column;
+            }
+            /*One of the rarest events to ever happen: Me using an ID reference.*/
+            /*Holds the results*/
+            #resultscontainer{
+                display: none;
+            }
+            /*#searching:focus{
+                outline: 3px solid #ddd;
+            }*/
+            
+        </style>
+
+    </head>
+    <body>
+            <div id="mainholder">
+                <!--The main search box/dropdown-->
+                <!--Input is text. Keep text that you want visible in placeholder-->
+                <input type="text" placeholder="Search" onfocus="test1function()" onblur="test2function()" onkeyup="filteringfunction()" id="searching">
+                
+                <div id="resultscontainer">
+                    <!--Here keep the results you want to include. 
+                        You can use classes here if you want-->
+                    <div class="linksdirectfix">
+                        <a href="#about">About</a>
+                        <a href="#base">Base</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#custom">Custom</a>
+                        <a href="#support">Support  </a>
+                        <a href="#tools">Tools  </a>
+                    </div>
+                </div>
+            </div>
+        <script>
+            //When the search field is focused upon,
+            //makes the results appear
+            function test1function() {
+                document.getElementById("resultscontainer").style.display = "block";
+                console.log("Yay I work!");
+            }
+			function test2function() {
+                document.getElementById("resultscontainer").style.display = "none";
+                console.log("Yay I work!");
+            }
+            //https://www.w3schools.com/howto/howto_js_filter_dropdown.asp
+            //I am insanely terrible at JavaScript
+            //The filteringfunction filters the results based on what you type
+            //I suggest you don't mess with this unless you understand it completely
+            function filteringfunction() {
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("searching");
+                filter = input.value.toUpperCase();
+                div = document.getElementById("mainholder");
+                a = div.getElementsByTagName("a");
+                for (i = 0; i < a.length; i++) {
+                    txtValue = a[i].textContent || a[i].innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        a[i].style.display = "";
+                    } else {
+                        a[i].style.display = "none";
+                     }
+                }
+            }
+            
+        
+        
+        
+        
+        </script>
+
+
+
+    </body>
+</html>

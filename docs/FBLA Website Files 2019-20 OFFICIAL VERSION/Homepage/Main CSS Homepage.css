@@ -1,0 +1,227 @@
+/* Homepage CSS */
+
+/*|------------------------|
+  |----Actual Page Code----|
+  |------------------------|*/
+
+body {
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+/*Form on Homepage for Flight Bookings*/
+/*Note: Have data in this form link to Flight Ticket Booking page
+and data transfers from here to that page there*/
+.mainpagetopsection{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	display: grid;
+	grid-template-columns: 50px 300px auto 373px 50px;
+	grid-template-rows: 100px 50px 140px 50px auto;
+}
+.mainpagetopsectionimage{
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+.mainpagetopsectiontext1{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	font-size: 50px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+.mainpagetopsectiontext2{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	font-size: 23px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	display: none;
+}
+.Formtopbuttons {
+	border: none;
+	outline: none;
+	padding: 5px 5px;
+	background-color: #F9F9F9;
+	font-size: 20px;
+	display: block;
+}
+.Formtopbuttons:hover{
+	border: none;
+	outline: none;
+	padding: 5px 5px;
+	background-color: rgba(45,146,240,1.00);
+	color: white;
+	display: block;
+	cursor: pointer;
+}
+
+.formtopoptions {
+	position: absolute;
+	left: 50px;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.bookflightsformcontainer {
+	border: 2px solid rgba(45,146,240,1.00);
+	font-family: 'Roboto', sans-serif;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.southernmilesholder{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+	align-items: center;
+	background-color: #efefef;
+	margin-right: 50px;
+	margin-left: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+.southernmilestxt{
+	padding-right: 50px;
+	padding-left: 60px;
+	padding-bottom: 45px;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+.homepglinkslinkinpg{
+	color: rgba(45,146,240,1.00);
+	text-decoration: none;
+}
+.homepglinkslinkinpg:hover{
+	color: rgba(45,146,240,1.00);
+	text-decoration: underline;
+}
+.sectionseparator{
+	border-top: 1px solid rgba(45,146,240,1.00);
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.jobscontainersection{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+  	align-items: center;
+	background-color: #efefef;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.homepgjobssectiontxt{
+	padding-right: 90px;
+	padding-left: 50px;
+	padding-bottom: 45px;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+.undermainpagepictext{
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 120px;
+	font-family: 'Roboto', sans-serif;
+}
+.hompgbookflightsad{
+	display: grid;
+	grid-auto-rows: 220px 60;
+	grid-auto-columns: 210px;
+	grid-row-gap: 5px;
+	grid-column-gap: 12px;
+	text-align: center;
+}
+.cardcenter{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #efefef;
+	border: 0px solid white;
+	border-radius: 5px;
+	grid-row-start: 3;
+  }
+  .cardcenter:hover{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #efefef;
+	border: 0px solid white;
+	border-radius: 5px;
+	grid-row-start: 3;
+	box-shadow: 8px 8px 5px grey;
+  }
+  .cardcenterfake{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #efefef;
+	border: 0px solid white;
+	border-radius: 5px;
+	grid-row-start: 3;
+  }
+  .cardcenterfake:hover{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #efefef;
+	border: 0px solid white;
+	border-radius: 5px;
+	grid-row-start: 3;
+	box-shadow: 8px 8px 5px grey;
+  }
+
+
+
+.card1{
+	/*border: 3px solid rgba(45,146,240,1.00);*/
+	border: 0px solid white;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #efefef;
+	grid-row-start: 1;
+  }
+  /*.cards:hover{
+	
+  }*/
+  .card2{
+	border: none;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	background-color: #efefef;
+	grid-row-start: 1;
+  }
+  .card3{
+	border: none;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	background-color: #efefef;
+	grid-row-start: 1;
+  }
+  .card17{
+	border: none;
+	border-radius: 5px;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	background-color: #efefef;
+	grid-row-start: 1;
+  }
+  .hompgcardslinkthing{
+	height: 50px;
+  }
+  .hompgcardslinkthing:hover{
+	height: 50px;
+	box-shadow: 8px 8px 5px grey;
+  }

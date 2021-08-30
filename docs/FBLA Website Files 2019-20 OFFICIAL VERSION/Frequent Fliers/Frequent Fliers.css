@@ -1,0 +1,89 @@
+/* CSS Document */
+
+/*----------------------*/
+/*   Actual Page Code   */
+/*----------------------*/
+
+
+body {
+	background-color:#f9f9f9;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.main{
+  margin-bottom: 0px;
+}
+
+.toppgtextcontainer{
+  /*display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;*/
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 600px 80px;
+  grid-template-rows: 150px 210px 170px auto;
+}
+.topimagecorrections{
+	width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.textattopofpg{
+  /*bottom: 390px;
+  left: 1025px;*/
+  text-align: right;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: end;
+}
+.textatrightofpg{
+  /*bottom: 320px;
+  left: 650px;*/
+  font-size: 21px;
+  text-align: right;
+  /*right: 80px;
+  top: 330px;*/
+  /*padding-right: 50px;*/
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.southernmileslinksuperv{
+  color: rgba(45,146,240,1.00);
+  text-decoration: underline;
+}
+.southernmileslinksuperv:visited{
+  color: rgba(45,146,240,1.00);
+  text-decoration: none;
+}
+.southernmileslinksuperv:hover{
+  color: white;
+  text-decoration: underline;
+}
+.southernmileslinksuperv:active{
+  color: rgba(45,146,240,1.00);
+  text-decoration: underline;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+ /*On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.cardsfade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
